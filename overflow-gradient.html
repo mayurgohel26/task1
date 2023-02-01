@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .main {
+            height: 500px;
+            width: 500px;
+            position: relative;
+            background: linear-gradient(green, lightgreen);
+            margin: auto;
+            padding: auto;
+            overflow: hidden;
+            box-shadow: 5px 5px 5px darkgreen inset;
+        }
+        .sub {
+            height: 200px;
+            width: 200px;
+            background: linear-gradient(lightgreen, green);
+            border-radius: 50%;
+            position: absolute;
+            box-shadow: 5px 5px 5px darkgreen inset;
+        }
+        .one {
+            right: 350px;
+            top: -50px;
+        }
+        .two {
+            top: -50px;
+            left: 350px;
+        }
+        .three {
+            left: -50px;
+            top: 350px;
+        }
+        .four {
+            top: 350px;
+            left: 350px;
+        }
+        .five {
+            top: 150px;
+            left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub one"></div>
+        <div class="sub two"></div>
+        <div class="sub three"></div>
+        <div class="sub four"></div>
+        <div class="sub five"></div>
+    </div>
+</body>
+</html>
