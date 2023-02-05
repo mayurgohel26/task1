@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .container {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 600px;
+        background-image: url(./background-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+      }
+
+      .form-inside {
+        margin-left: 460px;
+        margin-top: 40px;
+        padding: 50px;
+        width: 300px;
+        box-shadow: 5px 5px 5px gray, -5px -5px 5px gray;
+      }
+
+      h1 {
+        text-align: center;
+        color: white;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: lightseagreen;
+        color: white;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .sub {
+        border: 1px solid;
+        padding: 13px 35px;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+      }
+      .facebook {
+        background-color: royalblue;
+      }
+      .instagram {
+        background: linear-gradient(to top left, yellow, red, red, blue);
+      }
+      .signup {
+        border: none;
+        color: blue;
+        padding: 20px 5px;
+      }
+
+      input {
+        padding: 10px;
+        width: 280px;
+      }
+      h5 {
+        color: white;
+      }
+      a {
+        text-decoration: none;
+      }
+      h4 {
+        text-align: center;
+      }
+      .h-sign {
+        margin-top: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="form-inside">
+          <h1>Login Form</h1>
+          <label for="email">
+            <input type="email" placeholder="Email or Phone" /> </label
+          ><br /><br />
+          <label for="text"
+            ><input type="password" name="" id="" placeholder="Password" />
+          </label>
+          <a href="#"><h5>Forgot Password?</h5></a>
+          <button>LOGIN</button>
+          <h4>Or login with</h4>
+          <a
+            class="sub facebook"
+            href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569891%7Cb%7Cfacebook%20signin%7C&placement=&creative=589460569891&keyword=facebook%20signin&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696221832%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-3821998899%26loc_physical_ms%3D1007753%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIyMixjID__AIVSHmLCh0kegYZEAAYASAAEgI9l_D_BwE"
+            target="_blank"
+            >Facebook</a
+          >
+          <a
+            class="sub instagram"
+            href="https://www.instagram.com/sem/campaign/emailsignup/?campaign_id=13530338610&extra_1=s|c|547419127631|e|instagram%20%27|&placement=&creative=547419127631&keyword=instagram%20%27&partner_id=googlesem&extra_2=campaignid%3D13530338610%26adgroupid%3D126262414014%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-1321618851291%26loc_physical_ms%3D1007753%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMI6deN3YD__AIVUYrCCh1D8gepEAAYASAAEgJL8PD_BwE"
+            target="_blank"
+            >Instagram</a
+          >
+          <h4 class="h-sign">
+            Don't have account? <a class="signup" href="#">Signup Now</a>
+          </h4>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
